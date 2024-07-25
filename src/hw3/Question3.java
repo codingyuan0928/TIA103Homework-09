@@ -6,16 +6,10 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
+import hw2.Question5;
+
 public class Question3 {
-//	public static void main(String[] args) {
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("阿文...請輸入你討厭哪個數字?");
-//		int skipNumber = sc.nextInt();
-//		
-//		Question5 a = new Question5();
-//		a.getAllLotteryNumber(skipNumber);
-//		sc.close();
-//	}
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("阿文...請輸入你討厭哪個數字?");
