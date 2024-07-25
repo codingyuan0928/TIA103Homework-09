@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
-import hw2.Question5;
+
 
 public class Question3 {
 
