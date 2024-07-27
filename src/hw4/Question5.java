@@ -10,13 +10,12 @@ public class Question5 {
 	private static boolean isValid = true;
 
 	public static void main(String[] args) {
-		// 用於檢查輸入是否異常
-		// System.out.println("請輸入西元 年 月 日");
+		System.out.println("請輸入西元 年 月 日");
 		Scanner sc = new Scanner(System.in);
 		int year = sc.nextInt();
 		int month = sc.nextInt();
 		int date = sc.nextInt();
-		System.out.println(year + " " + month + " " + date);
+		// System.out.println(year + " " + month + " " + date); //用於檢查輸入是否異常
 		// 判斷year是否為閏年(輸入年分，帶入預設)=>返回是否為閏年
 		boolean leapYear = leapYearDetermination(year);
 		// 檢查日期的有效性
