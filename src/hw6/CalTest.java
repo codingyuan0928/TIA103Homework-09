@@ -19,5 +19,6 @@ public class CalTest {
 		}catch(InputMismatchException e) {
 			System.out.println("輸入格式不正確");
 		}
+		
 	}
 }
