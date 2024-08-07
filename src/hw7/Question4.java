@@ -16,6 +16,7 @@ public class Question4 {
 			File parentDir = file.getParentFile();
 			if (!parentDir.exists()) {
 				parentDir.mkdirs();
+				System.out.println("已為您建立目錄及檔案!!");
 			}
 			Dog doggo = new Dog("獨孤");
 			Dog doggy = new Dog("求敗");
@@ -32,9 +33,10 @@ public class Question4 {
 			for(int i=0;i<Animal.length;i++) {
 				oos.writeObject(Animal[i]);
 			}
-
+			
 			oos.close();
 			fos.close();
+			System.out.println("檔案輸出完成!!");
 			}catch(IOException e) {
 			e.printStackTrace();
 		}
